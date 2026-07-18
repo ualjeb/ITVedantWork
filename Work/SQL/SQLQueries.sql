@@ -225,14 +225,14 @@ S_NAME VARCHAR(20),
 S_AGE int
 );
 
-SELECT * , SUM(S_ID) OVER (ORDER BY S_AGE) AS DF FROM SDF ;
+SELECT * , SUM(S_ID) OVER (ORDER BY S_AGE) AS DF FROM SDF ;  --S_Age wise cumulative sum for S_ID
 
 
 SELECT * , RANK() OVER (ORDER BY S_AGE) FROM SDF ;
 
 SELECT * , RANK() OVER (ORDER BY S_AGE DESC) FROM SDF ;
 
-SELECT * , SUM(CH_ID) OVER (partition by CH_P) FROM CHILL ;
+SELECT * , SUM(CH_ID) OVER (partition by CH_P) FROM CHILL ;  --CH_P wise sum like department wise sum for employee
 
 SELECT 4545+8989 ;
 
