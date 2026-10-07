@@ -1,0 +1,2214 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='0b23cc98b0372dd233937bf8b1412a47bee5876bf541e7cffc581c6e9661c387' _.fcp.WorkbookFingerprinting.true...creator-author-id='0b23cc98b0372dd233937bf8b1412a47bee5876bf541e7cffc581c6e9661c387' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='0b23cc98b0372dd233937bf8b1412a47bee5876bf541e7cffc581c6e9661c387' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='0b23cc98b0372dd233937bf8b1412a47bee5876bf541e7cffc581c6e9661c387' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='insurance (insurance)' inline='true' name='federated.0b26jij1bomlfg18ss4ou04vwdoz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='insurance' name='excel-direct.1al24nu1b9g5s31dtgxuo1gni3i9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Win/Downloads/insurance.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1al24nu1b9g5s31dtgxuo1gni3i9' name='insurance' table='[insurance$]' type='table'>
+          <columns gridOrigin='A1:AM1001:no:A1:AM1001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='months_as_customer' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='integer' name='policy_number' ordinal='2' />
+            <column datatype='date' name='policy_bind_date' ordinal='3' />
+            <column datatype='string' name='policy_state' ordinal='4' />
+            <column datatype='string' name='policy_csl' ordinal='5' />
+            <column datatype='integer' name='policy_deductable' ordinal='6' />
+            <column datatype='real' name='policy_annual_premium' ordinal='7' />
+            <column datatype='integer' name='umbrella_limit' ordinal='8' />
+            <column datatype='integer' name='insured_zip' ordinal='9' />
+            <column datatype='string' name='insured_sex' ordinal='10' />
+            <column datatype='string' name='insured_education_level' ordinal='11' />
+            <column datatype='string' name='insured_occupation' ordinal='12' />
+            <column datatype='string' name='insured_hobbies' ordinal='13' />
+            <column datatype='string' name='insured_relationship' ordinal='14' />
+            <column datatype='integer' name='capital-gains' ordinal='15' />
+            <column datatype='integer' name='capital-loss' ordinal='16' />
+            <column datatype='date' name='incident_date' ordinal='17' />
+            <column datatype='string' name='incident_type' ordinal='18' />
+            <column datatype='string' name='collision_type' ordinal='19' />
+            <column datatype='string' name='incident_severity' ordinal='20' />
+            <column datatype='string' name='authorities_contacted' ordinal='21' />
+            <column datatype='string' name='incident_state' ordinal='22' />
+            <column datatype='string' name='incident_city' ordinal='23' />
+            <column datatype='string' name='incident_location' ordinal='24' />
+            <column datatype='integer' name='incident_hour_of_the_day' ordinal='25' />
+            <column datatype='integer' name='number_of_vehicles_involved' ordinal='26' />
+            <column datatype='string' name='property_damage' ordinal='27' />
+            <column datatype='integer' name='bodily_injuries' ordinal='28' />
+            <column datatype='integer' name='witnesses' ordinal='29' />
+            <column datatype='string' name='police_report_available' ordinal='30' />
+            <column datatype='integer' name='total_claim_amount' ordinal='31' />
+            <column datatype='integer' name='injury_claim' ordinal='32' />
+            <column datatype='integer' name='property_claim' ordinal='33' />
+            <column datatype='integer' name='vehicle_claim' ordinal='34' />
+            <column datatype='string' name='auto_make' ordinal='35' />
+            <column datatype='string' name='auto_model' ordinal='36' />
+            <column datatype='integer' name='auto_year' ordinal='37' />
+            <column datatype='string' name='fraud_reported' ordinal='38' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AM1001:no:A1:AM1001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>months_as_customer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[months_as_customer]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>months_as_customer</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[policy_number]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_bind_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[policy_bind_date]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_bind_date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[policy_state]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_csl</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[policy_csl]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_csl</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_deductable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[policy_deductable]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_deductable</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_annual_premium</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[policy_annual_premium]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_annual_premium</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>umbrella_limit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[umbrella_limit]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>umbrella_limit</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[insured_zip]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_zip</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_sex]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_sex</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_education_level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_education_level]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_education_level</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_occupation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_occupation]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_occupation</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_hobbies</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_hobbies]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_hobbies</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_relationship</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_relationship]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_relationship</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capital-gains</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[capital-gains]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>capital-gains</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capital-loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[capital-loss]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>capital-loss</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[incident_date]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_date</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_type]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_type</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>collision_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[collision_type]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>collision_type</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_severity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_severity]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_severity</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>authorities_contacted</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[authorities_contacted]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>authorities_contacted</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_state]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_state</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_city]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_city</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_location]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_location</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_hour_of_the_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[incident_hour_of_the_day]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_hour_of_the_day</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_vehicles_involved</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_vehicles_involved]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>number_of_vehicles_involved</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property_damage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[property_damage]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>property_damage</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bodily_injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bodily_injuries]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>bodily_injuries</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>witnesses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[witnesses]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>witnesses</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>police_report_available</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[police_report_available]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>police_report_available</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_claim_amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_claim_amount]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>total_claim_amount</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>injury_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[injury_claim]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>injury_claim</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[property_claim]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>property_claim</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vehicle_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vehicle_claim]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>vehicle_claim</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auto_make</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[auto_make]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>auto_make</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auto_model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[auto_model]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>auto_model</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auto_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[auto_year]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>auto_year</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fraud_reported</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[fraud_reported]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>fraud_reported</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Zero' datatype='integer' name='[Calculation_1813126324506624]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column caption='insurance' datatype='table' name='[__tableau_internal_object_id__].[insurance_569E7257EA8C4C2EBEC621C7692D4618]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Authorities Contacted' datatype='string' name='[authorities_contacted]' role='dimension' type='nominal' />
+      <column caption='Auto Make' datatype='string' name='[auto_make]' role='dimension' type='nominal' />
+      <column caption='Auto Model' datatype='string' name='[auto_model]' role='dimension' type='nominal' />
+      <column caption='Auto Year' datatype='integer' name='[auto_year]' role='dimension' type='quantitative' />
+      <column caption='Bodily Injuries' datatype='integer' name='[bodily_injuries]' role='measure' type='quantitative' />
+      <column caption='Capital-Gains' datatype='integer' name='[capital-gains]' role='measure' type='quantitative' />
+      <column caption='Capital-Loss' datatype='integer' name='[capital-loss]' role='measure' type='quantitative' />
+      <column caption='Collision Type' datatype='string' name='[collision_type]' role='dimension' type='nominal' />
+      <column caption='Fraud Reported' datatype='string' name='[fraud_reported]' role='dimension' type='nominal' />
+      <column caption='Incident City' datatype='string' name='[incident_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Incident Date' datatype='date' name='[incident_date]' role='dimension' type='ordinal' />
+      <column caption='Incident Hour Of The Day' datatype='integer' name='[incident_hour_of_the_day]' role='dimension' type='quantitative' />
+      <column caption='Incident Location' datatype='string' name='[incident_location]' role='dimension' type='nominal' />
+      <column caption='Incident Severity' datatype='string' name='[incident_severity]' role='dimension' type='nominal' />
+      <column caption='Incident State' datatype='string' name='[incident_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Incident Type' datatype='string' name='[incident_type]' role='dimension' type='nominal' />
+      <column caption='Injury Claim' datatype='integer' name='[injury_claim]' role='measure' type='quantitative' />
+      <column caption='Insured Education Level' datatype='string' name='[insured_education_level]' role='dimension' type='nominal' />
+      <column caption='Insured Hobbies' datatype='string' name='[insured_hobbies]' role='dimension' type='nominal' />
+      <column caption='Insured Occupation' datatype='string' name='[insured_occupation]' role='dimension' type='nominal' />
+      <column caption='Insured Relationship' datatype='string' name='[insured_relationship]' role='dimension' type='nominal' />
+      <column caption='Insured Sex' datatype='string' name='[insured_sex]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Insured Zip' datatype='integer' default-format='*00000' name='[insured_zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Months As Customer' datatype='integer' name='[months_as_customer]' role='measure' type='quantitative' />
+      <column caption='Number Of Vehicles Involved' datatype='integer' name='[number_of_vehicles_involved]' role='measure' type='quantitative' />
+      <column caption='Police Report Available' datatype='string' name='[police_report_available]' role='dimension' type='nominal' />
+      <column caption='Policy Annual Premium' datatype='real' name='[policy_annual_premium]' role='measure' type='quantitative' />
+      <column caption='Policy Bind Date' datatype='date' name='[policy_bind_date]' role='dimension' type='ordinal' />
+      <column caption='Policy Csl' datatype='string' name='[policy_csl]' role='dimension' type='nominal' />
+      <column caption='Policy Deductable' datatype='integer' name='[policy_deductable]' role='measure' type='quantitative' />
+      <column caption='Policy Number' datatype='integer' name='[policy_number]' role='dimension' type='ordinal' />
+      <column caption='Policy State' datatype='string' name='[policy_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Property Claim' datatype='integer' name='[property_claim]' role='measure' type='quantitative' />
+      <column caption='Property Damage' datatype='string' name='[property_damage]' role='dimension' type='nominal' />
+      <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+      <column caption='Umbrella Limit' datatype='integer' name='[umbrella_limit]' role='measure' type='quantitative' />
+      <column caption='Vehicle Claim' datatype='integer' name='[vehicle_claim]' role='measure' type='quantitative' />
+      <column caption='Witnesses' datatype='integer' name='[witnesses]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Win/AppData/Local/Temp/TableauTemp/#TableauTemp_0nme9so126h21o1gkkl1f0ec62ui.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/07/2026 02:11:06 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>months_as_customer</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[months_as_customer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>months_as_customer</remote-alias>
+              <ordinal>0</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>391</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[policy_number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_number</remote-alias>
+              <ordinal>2</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_bind_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[policy_bind_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_bind_date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>insurance</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>951</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[policy_state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_state</remote-alias>
+              <ordinal>4</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_csl</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[policy_csl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_csl</remote-alias>
+              <ordinal>5</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_deductable</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[policy_deductable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_deductable</remote-alias>
+              <ordinal>6</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_annual_premium</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[policy_annual_premium]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_annual_premium</remote-alias>
+              <ordinal>7</ordinal>
+              <family>insurance</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>991</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>umbrella_limit</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[umbrella_limit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>umbrella_limit</remote-alias>
+              <ordinal>8</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insured_zip</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[insured_zip]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insured_zip</remote-alias>
+              <ordinal>9</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>995</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insured_sex</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[insured_sex]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insured_sex</remote-alias>
+              <ordinal>10</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insured_education_level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[insured_education_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insured_education_level</remote-alias>
+              <ordinal>11</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insured_occupation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[insured_occupation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insured_occupation</remote-alias>
+              <ordinal>12</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insured_hobbies</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[insured_hobbies]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insured_hobbies</remote-alias>
+              <ordinal>13</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insured_relationship</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[insured_relationship]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insured_relationship</remote-alias>
+              <ordinal>14</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>capital-gains</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[capital-gains]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>capital-gains</remote-alias>
+              <ordinal>15</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>338</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>capital-loss</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[capital-loss]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>capital-loss</remote-alias>
+              <ordinal>16</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>354</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[incident_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_date</remote-alias>
+              <ordinal>17</ordinal>
+              <family>insurance</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[incident_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_type</remote-alias>
+              <ordinal>18</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>collision_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[collision_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>collision_type</remote-alias>
+              <ordinal>19</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_severity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[incident_severity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_severity</remote-alias>
+              <ordinal>20</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>authorities_contacted</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[authorities_contacted]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>authorities_contacted</remote-alias>
+              <ordinal>21</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[incident_state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_state</remote-alias>
+              <ordinal>22</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[incident_city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_city</remote-alias>
+              <ordinal>23</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[incident_location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_location</remote-alias>
+              <ordinal>24</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incident_hour_of_the_day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[incident_hour_of_the_day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incident_hour_of_the_day</remote-alias>
+              <ordinal>25</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>number_of_vehicles_involved</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[number_of_vehicles_involved]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>number_of_vehicles_involved</remote-alias>
+              <ordinal>26</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>property_damage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[property_damage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>property_damage</remote-alias>
+              <ordinal>27</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bodily_injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[bodily_injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bodily_injuries</remote-alias>
+              <ordinal>28</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>witnesses</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[witnesses]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>witnesses</remote-alias>
+              <ordinal>29</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>police_report_available</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[police_report_available]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>police_report_available</remote-alias>
+              <ordinal>30</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_claim_amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_claim_amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_claim_amount</remote-alias>
+              <ordinal>31</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>763</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>injury_claim</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[injury_claim]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>injury_claim</remote-alias>
+              <ordinal>32</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>638</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>property_claim</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[property_claim]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>property_claim</remote-alias>
+              <ordinal>33</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>626</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>vehicle_claim</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[vehicle_claim]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>vehicle_claim</remote-alias>
+              <ordinal>34</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>726</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>auto_make</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[auto_make]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>auto_make</remote-alias>
+              <ordinal>35</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>auto_model</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[auto_model]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>auto_model</remote-alias>
+              <ordinal>36</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>auto_year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[auto_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>auto_year</remote-alias>
+              <ordinal>37</ordinal>
+              <family>insurance</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fraud_reported</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fraud_reported]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fraud_reported</remote-alias>
+              <ordinal>38</ordinal>
+              <family>insurance</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[insurance_569E7257EA8C4C2EBEC621C7692D4618]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='insurance' id='insurance_569E7257EA8C4C2EBEC621C7692D4618'>
+            <properties context=''>
+              <relation connection='excel-direct.1al24nu1b9g5s31dtgxuo1gni3i9' name='insurance' table='[insurance$]' type='table'>
+                <columns gridOrigin='A1:AM1001:no:A1:AM1001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='months_as_customer' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='integer' name='policy_number' ordinal='2' />
+                  <column datatype='date' name='policy_bind_date' ordinal='3' />
+                  <column datatype='string' name='policy_state' ordinal='4' />
+                  <column datatype='string' name='policy_csl' ordinal='5' />
+                  <column datatype='integer' name='policy_deductable' ordinal='6' />
+                  <column datatype='real' name='policy_annual_premium' ordinal='7' />
+                  <column datatype='integer' name='umbrella_limit' ordinal='8' />
+                  <column datatype='integer' name='insured_zip' ordinal='9' />
+                  <column datatype='string' name='insured_sex' ordinal='10' />
+                  <column datatype='string' name='insured_education_level' ordinal='11' />
+                  <column datatype='string' name='insured_occupation' ordinal='12' />
+                  <column datatype='string' name='insured_hobbies' ordinal='13' />
+                  <column datatype='string' name='insured_relationship' ordinal='14' />
+                  <column datatype='integer' name='capital-gains' ordinal='15' />
+                  <column datatype='integer' name='capital-loss' ordinal='16' />
+                  <column datatype='date' name='incident_date' ordinal='17' />
+                  <column datatype='string' name='incident_type' ordinal='18' />
+                  <column datatype='string' name='collision_type' ordinal='19' />
+                  <column datatype='string' name='incident_severity' ordinal='20' />
+                  <column datatype='string' name='authorities_contacted' ordinal='21' />
+                  <column datatype='string' name='incident_state' ordinal='22' />
+                  <column datatype='string' name='incident_city' ordinal='23' />
+                  <column datatype='string' name='incident_location' ordinal='24' />
+                  <column datatype='integer' name='incident_hour_of_the_day' ordinal='25' />
+                  <column datatype='integer' name='number_of_vehicles_involved' ordinal='26' />
+                  <column datatype='string' name='property_damage' ordinal='27' />
+                  <column datatype='integer' name='bodily_injuries' ordinal='28' />
+                  <column datatype='integer' name='witnesses' ordinal='29' />
+                  <column datatype='string' name='police_report_available' ordinal='30' />
+                  <column datatype='integer' name='total_claim_amount' ordinal='31' />
+                  <column datatype='integer' name='injury_claim' ordinal='32' />
+                  <column datatype='integer' name='property_claim' ordinal='33' />
+                  <column datatype='integer' name='vehicle_claim' ordinal='34' />
+                  <column datatype='string' name='auto_make' ordinal='35' />
+                  <column datatype='string' name='auto_model' ordinal='36' />
+                  <column datatype='integer' name='auto_year' ordinal='37' />
+                  <column datatype='string' name='fraud_reported' ordinal='38' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='insurance (insurance)' name='federated.0b26jij1bomlfg18ss4ou04vwdoz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0b26jij1bomlfg18ss4ou04vwdoz'>
+            <column caption='Zero' datatype='integer' name='[Calculation_1813126324506624]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='Incident Severity' datatype='string' name='[incident_severity]' role='dimension' type='nominal' />
+            <column-instance column='[incident_severity]' derivation='None' name='[none:incident_severity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[policy_annual_premium]' derivation='Sum' name='[pcto:sum:policy_annual_premium:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Policy Annual Premium' datatype='real' name='[policy_annual_premium]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1813126324506624]' derivation='Sum' name='[sum:Calculation_1813126324506624:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[policy_annual_premium]' derivation='Sum' name='[sum:policy_annual_premium:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]' value='' />
+            <format attr='text-format' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[pcto:sum:policy_annual_premium:qk]' value='' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]' value='' />
+            <format attr='text-format' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[pcto:sum:policy_annual_premium:qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:incident_severity:nk]' />
+              <wedge-size column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]' />
+              <size column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]' />
+              <text column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[pcto:sum:policy_annual_premium:qk]' />
+              <text column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:incident_severity:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='5.3785600662231445' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='4.284820556640625' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk] + [federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:Calculation_1813126324506624:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D4C034F6-42FA-4F9B-870D-DF2060367EDB}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='insurance (insurance)' name='federated.0b26jij1bomlfg18ss4ou04vwdoz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0b26jij1bomlfg18ss4ou04vwdoz'>
+            <column-instance column='[property_claim]' derivation='Avg' name='[avg:property_claim:qk]' pivot='key' type='quantitative' />
+            <column caption='Capital-Gains' datatype='integer' name='[capital-gains]' role='measure' type='quantitative' />
+            <column caption='Insured Sex' datatype='string' name='[insured_sex]' role='dimension' type='nominal' />
+            <column-instance column='[insured_sex]' derivation='None' name='[none:insured_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Property Claim' datatype='integer' name='[property_claim]' role='measure' type='quantitative' />
+            <column-instance column='[capital-gains]' derivation='Sum' name='[sum:capital-gains:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[property_claim]' derivation='Sum' name='[sum:property_claim:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]' value='11' />
+            <format attr='display' class='0' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:insured_sex:nk]' value='175' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='reverse-palette' id='refline1' value='false' />
+            <format attr='palette' id='refline1' value='rf_stoplight_lt' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]' />
+              <lod column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:property_claim:qk]' />
+              <lod column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[avg:property_claim:qk]' />
+              <lod column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:property_claim:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]' enable-instant-analytics='true' formula='average' id='refline0' label='Average Property Claim' label-type='custom' probability='95' scope='per-cell' value-column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[avg:property_claim:qk]' z-order='1' />
+            <reference-line axis-column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]' enable-instant-analytics='true' fill-above='false' fill-below='true' formula='sum' id='refline1' label-type='automatic' percentage-bands='true' scope='per-cell' symmetric='false' value-column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:property_claim:qk]' z-order='2'>
+              <reference-line-value percentage='60' />
+              <reference-line-value percentage='80' />
+            </reference-line>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:insured_sex:nk]</rows>
+        <cols>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]</cols>
+      </table>
+      <simple-id uuid='{2147DFD6-9DAF-4534-9DFC-0C653C10CB4A}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='insurance (insurance)' name='federated.0b26jij1bomlfg18ss4ou04vwdoz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0b26jij1bomlfg18ss4ou04vwdoz'>
+            <column caption='Auto Model' datatype='string' name='[auto_model]' role='dimension' type='nominal' />
+            <column-instance column='[auto_model]' derivation='None' name='[none:auto_model:nk]' pivot='key' type='nominal' />
+            <column caption='Policy Bind Date' datatype='date' name='[policy_bind_date]' role='dimension' type='ordinal' />
+            <column caption='Policy Deductable' datatype='integer' name='[policy_deductable]' role='measure' type='quantitative' />
+            <column-instance column='[policy_deductable]' derivation='Sum' name='[sum:policy_deductable:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_claim_amount]' derivation='Sum' name='[sum:total_claim_amount:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+            <column-instance column='[policy_bind_date]' derivation='Year' name='[yr:policy_bind_date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:auto_model:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:total_claim_amount:qk]</rows>
+        <cols>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_deductable:qk]</cols>
+        <pages>
+          <column>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[yr:policy_bind_date:ok]</column>
+        </pages>
+        <page-trail-options enabled='true' />
+      </table>
+      <simple-id uuid='{FB124C77-4381-4382-BD75-C7FDDC11E1F3}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='insurance (insurance)' name='federated.0b26jij1bomlfg18ss4ou04vwdoz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0b26jij1bomlfg18ss4ou04vwdoz'>
+            <column caption='Capital-Gains' datatype='integer' name='[capital-gains]' role='measure' type='quantitative' />
+            <column caption='Injury Claim' datatype='integer' name='[injury_claim]' role='measure' type='quantitative' />
+            <column caption='Policy Annual Premium' datatype='real' name='[policy_annual_premium]' role='measure' type='quantitative' />
+            <column caption='Policy Deductable' datatype='integer' name='[policy_deductable]' role='measure' type='quantitative' />
+            <column caption='Property Claim' datatype='integer' name='[property_claim]' role='measure' type='quantitative' />
+            <column-instance column='[capital-gains]' derivation='Sum' name='[sum:capital-gains:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[injury_claim]' derivation='Sum' name='[sum:injury_claim:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[policy_annual_premium]' derivation='Sum' name='[sum:policy_annual_premium:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[policy_deductable]' derivation='Sum' name='[sum:policy_deductable:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[property_claim]' derivation='Sum' name='[sum:property_claim:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_claim_amount]' derivation='Sum' name='[sum:total_claim_amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[vehicle_claim]' derivation='Sum' name='[sum:vehicle_claim:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+            <column caption='Vehicle Claim' datatype='integer' name='[vehicle_claim]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:total_claim_amount:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:vehicle_claim:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:injury_claim:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:property_claim:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_deductable:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:total_claim_amount:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:vehicle_claim:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:injury_claim:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:property_claim:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_deductable:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:capital-gains:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[:Measure Names]' value='173' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[Multiple Values]' palette='tableau-map-temperatur' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[Multiple Values]' />
+              <text column='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{49B022CD-B773-430C-93E5-835531A60840}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:incident_severity:nk]' type='color' />
+            <card pane-specification-id='3' param='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[sum:policy_annual_premium:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:incident_severity:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E095E3F3-3EA1-47FB-9A86-A64E4228CB8F}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:insured_sex:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F9182B3F-BDF0-458B-A54E-0DA866D0C357}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2008</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[none:auto_model:nk]</field>
+            <field>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[yr:policy_bind_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{78FEFEAB-49B9-45A1-A145-D1B8FCE3785C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0b26jij1bomlfg18ss4ou04vwdoz].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0b26jij1bomlfg18ss4ou04vwdoz].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC35814F-9D86-41C0-BEBD-C7FE18D7201D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      HeD/AWeolJEMB1YlAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      qbNDUEJjAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='45' name='Sheet 4' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
